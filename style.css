@@ -1,0 +1,100 @@
+/* versão mobile bem simplezinha */ 
+
+.id:hover {
+   background: url("img/id_cor.png") no-repeat;
+    }
+.portfolio:hover {
+       background: url("img/portfolio_cor.png") no-repeat;
+    }
+.sketchs:hover {
+       background: url("img/sketchs_cor.png") no-repeat;
+    }
+.blog:hover {
+       background: url("img/blog2_cor.png") no-repeat;
+    }
+.works:hover {
+       background: url("img/works_cor.png") no-repeat;
+    }
+.mail:hover {
+       background: url("img/mail2_cor.png") no-repeat;
+    }
+
+footer {
+      font-family: monospace;
+      position: fixed;
+      bottom: 0;
+    }
+
+.neo:link, :visited {
+      color: black;
+      text-decoration: none;
+    }
+.neo:hover {
+      color: orange;
+      text-decoration: none;
+    }
+
+nav {
+      top: 45%;
+      left: 50%;    
+    }
+
+.id {
+       margin:0px 15px 25px 0px;
+    }
+.sketchs {
+       margin:0px 0px 0px 10px;
+    }
+.portfolio {
+       margin:4px 0px 0px 0px;
+    }
+.blog {
+       margin:6px 13px 0px -10px;
+    }
+.works {
+       margin:5px 0px 10px 0px;
+    }
+.mail {
+       margin:5px -13px 80px 21px;
+    }
+
+
+/** versão desktop */ 
+@media (min-width: 800px)  {
+      
+
+.id {
+       
+       margin:0px -16px 110px 20px;
+    }
+.sketchs {
+       margin:0px 12px -16px 15px;
+    }
+.portfolio {
+       margin:0px 0px 10px 2px;
+    }
+.blog {
+       margin:-10px 42px 20px -25px;
+    }
+.works {
+       margin:0px 30px -5px -15px;
+    }
+.mail {
+       margin:0px 18px 53px -15px;
+    }
+
+nav {
+      width: 700px;
+      height: 450px;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      
+    }
+    
+footer {
+      Width: 100%;    
+}
+}
